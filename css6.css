@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to right bottom, rgb(227, 63, 197), rgb(243, 93, 93));
+    height:100vh;    
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: white;
+    height:500px;
+    width:600px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin:auto;
+    margin-top:140px;
+}
+h1{
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    width: 84%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.display-box{
+    width: 68%;
+    height: 30px;
+    background-color: #f5f4f4;
+    border-radius: 5px;
+    margin: 20px auto;
+    font-weight: 700;
+    padding:60px;
+    font-size: 18px;
+    overflow-y: auto;
+    text-align: left;
+    border:none;
+    text-align: center;
+
+}
+.container .controls{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin:px;
+}
+button{
+    padding: 10px 1px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    width:120px;
+    height:40px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    justify-content: center;
+}
+#uppercaseBtn{
+    background-color: rgb(28, 38, 188);
+}
+#lowercaseBtn{
+    background-color: rgb(39, 39, 228);
+}
+#captial{
+    background-color: rgb(29, 29, 130);
+}
+#redtxt{
+    background-color: red;
+}
+#bluetxt{
+    background-color: rgb(32, 32, 246);
+}
+#greentxt{
+    background-color: green;
+}
+#Biggerfont{
+    background-color: rgb(38, 38, 216);
+}
+#Smallerfont{
+    background-color: rgb(48, 48, 197);
+}
+
+#Reset{
+    background-color: orange;
+    width:88%
+}
+button:hover{
+    opacity: 0.5;
+    background-color: blue;
+}
+    
